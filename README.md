@@ -1,5 +1,7 @@
 # ECG → Potassium: detecting hyperkalemia from the 12-lead ECG
 
+![repo health](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/TasnimPuc/bd-rooftop-solar-calculator/main/.github/health/badge.json)
+
 Predicts serum potassium (K⁺) **from the 12-lead ECG alone**, with no blood test. The model estimates
 the K⁺ value and the probability of hyperkalemia (K ≥ 5.5, and ≥ 6.0) and hypokalemia (K < 3.5).
 A population Grad-CAM shows **where in the heartbeat the model looks**. Hyperkalemia classically peaks
